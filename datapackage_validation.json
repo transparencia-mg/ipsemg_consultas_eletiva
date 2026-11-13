@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 6.292,
+  "time": 0.078,
   "errors": [],
   "tasks": [
     {
@@ -118,7 +118,7 @@
           "rows": 0
         }
       },
-      "time": 0.061,
+      "time": 0.066,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -34151,120 +34151,11 @@
         "errors": 1000
       },
       "valid": false
-    },
-    {
-      "resource": {
-        "path": "data/consultas_eletiva.csv",
-        "name": "consultas_eletiva",
-        "profile": "tabular-data-resource",
-        "scheme": "file",
-        "format": "csv",
-        "hashing": "md5",
-        "encoding": "utf-8-sig",
-        "dialect": {
-          "delimiter": ";"
-        },
-        "schema": {
-          "fields": [
-            {
-              "name": "data_ref",
-              "type": "integer"
-            },
-            {
-              "name": "cod_prestador",
-              "type": "integer"
-            },
-            {
-              "name": "nome_prestador",
-              "type": "string"
-            },
-            {
-              "name": "nome_municipio_principal_prestador",
-              "type": "string"
-            },
-            {
-              "name": "uf_prestador",
-              "type": "string"
-            },
-            {
-              "name": "macro_regional_prestador",
-              "type": "string"
-            },
-            {
-              "name": "micro_regional_prestador",
-              "type": "string"
-            },
-            {
-              "name": "nome_municipio_principal_benef",
-              "type": "string"
-            },
-            {
-              "name": "uf_beneficiario",
-              "type": "string"
-            },
-            {
-              "name": "macro_regional_benef",
-              "type": "string"
-            },
-            {
-              "name": "micro_regional_benef",
-              "type": "string"
-            },
-            {
-              "name": "tipo_consulta",
-              "type": "string"
-            },
-            {
-              "name": "qtde_consultas",
-              "type": "integer"
-            },
-            {
-              "name": "valor_consultas",
-              "type": "string"
-            }
-          ]
-        },
-        "title": "Insira um título humanamente legível para este recurso.",
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
-        "stats": {
-          "hash": "282f8866037f9c6c2e16e183a6517bf5",
-          "bytes": 41476727,
-          "fields": 14,
-          "rows": 301329
-        }
-      },
-      "time": 6.212,
-      "scope": [
-        "hash-count-error",
-        "byte-count-error",
-        "field-count-error",
-        "row-count-error",
-        "blank-header",
-        "extra-label",
-        "missing-label",
-        "blank-label",
-        "duplicate-label",
-        "incorrect-label",
-        "blank-row",
-        "primary-key-error",
-        "foreign-key-error",
-        "extra-cell",
-        "missing-cell",
-        "type-error",
-        "constraint-error",
-        "unique-error"
-      ],
-      "partial": false,
-      "errors": [],
-      "stats": {
-        "errors": 0
-      },
-      "valid": true
     }
   ],
   "stats": {
     "errors": 1000,
-    "tasks": 2
+    "tasks": 1
   },
   "valid": false
 }
